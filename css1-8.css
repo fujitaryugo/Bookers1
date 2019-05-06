@@ -54,3 +54,15 @@ main {
 .box-title {
 	margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px) {
+	main {
+		width: 90%;
+		margin-right: 0;
+	}
+	.box {
+		width: 90%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
