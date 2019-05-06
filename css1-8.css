@@ -14,7 +14,7 @@ main {
 }
 .box {
     width: 300px;
-    height: 0 auto;
+
     margin-right: 30px;
     padding: 10px;
     float: left;
@@ -24,6 +24,24 @@ main {
 .box:last-child {
     margin-right: 0;
 }
+.box-image1 {
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.box-image2 {
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.box-image3 {
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+}
 .box-step {
 	color:white;
 	background-color: orange;
@@ -32,15 +50,7 @@ main {
 	left:0;
 	padding: 6px;
 }
-.box-image,
-.box-title,
-.box-text {
-	width: 280px;
-	padding: 10px;
-	background-position:center;
 
-
-}
 .box-title {
-	font-size: 22px;
+	margin: 15px 0 5px;
 }
